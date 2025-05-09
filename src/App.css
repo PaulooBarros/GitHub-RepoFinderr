@@ -1,0 +1,113 @@
+:root {
+  /* Cores primárias */
+  --color-primary: #4285f4;
+  --color-primary-light: #e8f0fe;
+  --color-primary-dark: #3367d6;
+
+  /* Tons de cinza */
+  --color-gray-100: #f8f9fa;
+  --color-gray-200: #e9ecef;
+  --color-gray-300: #dee2e6;
+  --color-gray-600: #6c757d;
+  --color-gray-800: #343a40;
+
+  /* Cores de texto */
+  --color-text-primary: #202124;
+  --color-text-secondary: #5f6368;
+  --color-text-contrast: #ffffff;
+
+  /* Cores de fundo */
+  --color-bg-main: #ffffff;
+  --color-bg-secondary: #f8f9fa;
+  --color-bg-hover: #f1f3f4;
+
+  /* Cores de borda */
+  --color-border-light: #dadce0;
+  --color-border-medium: #bdc1c6;
+
+  /* Cores de status */
+  --color-success: #34a853;
+  --color-error: #ea4335;
+  --color-warning: #fbbc05;
+
+  /* Espaçamentos */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+
+  /* Bordas */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 24px;
+  --border-radius-full: 50px;
+
+  /* Sombras */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ html, body {
+  margin-top: 12px;
+  height: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #e9f2ff;
+  color: var(--color-text-primary);
+  line-height: 1.6;
+  /* background-color: pink; */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-md);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-sm);
+  font-weight: 600;
+}
+
+p {
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-sm);
+}
+
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+.card {
+  /* background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-sm); */
+  padding: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+}
+
+.text-center {
+  text-align: center;
+}
+.mt-md {
+  margin-top: var(--spacing-md);
+}
+.mb-md {
+  margin-bottom: var(--spacing-md);
+} 
